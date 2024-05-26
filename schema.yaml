@@ -1,0 +1,34 @@
+COLUMNS:
+  age : float64
+  on thyroxine : int64
+  query on thyroxine : int64
+  on antithyroid medication : int64
+  sick : int64
+  pregnant : int64
+  thyroid surgery : int64
+  I131 treatment : int64
+  query hypothyroid : int64
+  query hyperthyroid : int64
+  lithium : int64
+  goitre : int64
+  tumor : int64
+  hypopituitary : int64
+  psych : int64
+  TSH measured : int64
+  TSH : float64
+  T3 measured : int64
+  T3 : float64
+  TT4 measured : int64
+  TT4 : float64
+  T4U measured : int64
+  T4U : float64
+  FTI measured : int64
+  FTI : float64
+  TBG measured : object
+  binaryClass : object
+  sex_M : bool
+  sex_unknown : bool
+  referral source_SVHC : bool
+  referral source_SVHD : bool
+  referral source_SVI : bool
+  referral source_other : bool

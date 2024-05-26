@@ -1,1 +1,460 @@
 [2024-05-26 14:35:50,667: INFO: main: this is log file]
+[2024-05-26 17:08:38,623: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 17:08:38,628: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 17:08:38,639: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 17:08:38,639: INFO: common: created directory at: artifacts]
+[2024-05-26 17:08:38,639: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-26 17:08:40,652: INFO: 1268487314: artifacts/data_ingestion/data.zip download! with following info: 
+Server: GitHub.com
+Date: Sun, 26 May 2024 11:38:43 GMT
+Content-Type: text/html; charset=utf-8
+Vary: X-PJAX, X-PJAX-Container, Turbo-Visit, Turbo-Frame, Accept-Encoding, Accept, X-Requested-With
+ETag: W/"330077b4c8d302e00982d7836c67a9d6"
+Cache-Control: max-age=0, private, must-revalidate
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+X-Frame-Options: deny
+X-Content-Type-Options: nosniff
+X-XSS-Protection: 0
+Referrer-Policy: no-referrer-when-downgrade
+Content-Security-Policy: default-src 'none'; base-uri 'self'; child-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/; connect-src 'self' uploads.github.com www.githubstatus.com collector.github.com raw.githubusercontent.com api.github.com github-cloud.s3.amazonaws.com github-production-repository-file-5c1aeb.s3.amazonaws.com github-production-upload-manifest-file-7fdce7.s3.amazonaws.com github-production-user-asset-6210df.s3.amazonaws.com api.githubcopilot.com objects-origin.githubusercontent.com copilot-proxy.githubusercontent.com/v1/engines/copilot-codex/completions *.actions.githubusercontent.com wss://*.actions.githubusercontent.com productionresultssa0.blob.core.windows.net/ productionresultssa1.blob.core.windows.net/ productionresultssa2.blob.core.windows.net/ productionresultssa3.blob.core.windows.net/ productionresultssa4.blob.core.windows.net/ productionresultssa5.blob.core.windows.net/ productionresultssa6.blob.core.windows.net/ productionresultssa7.blob.core.windows.net/ productionresultssa8.blob.core.windows.net/ productionresultssa9.blob.core.windows.net/ productionresultssa10.blob.core.windows.net/ productionresultssa11.blob.core.windows.net/ productionresultssa12.blob.core.windows.net/ productionresultssa13.blob.core.windows.net/ productionresultssa14.blob.core.windows.net/ productionresultssa15.blob.core.windows.net/ productionresultssa16.blob.core.windows.net/ productionresultssa17.blob.core.windows.net/ productionresultssa18.blob.core.windows.net/ productionresultssa19.blob.core.windows.net/ github-production-repository-image-32fea6.s3.amazonaws.com github-production-release-asset-2e65be.s3.amazonaws.com insights.github.com wss://alive.github.com; font-src github.githubassets.com; form-action 'self' github.com gist.github.com copilot-workspace.githubnext.com objects-origin.githubusercontent.com; frame-ancestors 'none'; frame-src viewscreen.githubusercontent.com notebooks.githubusercontent.com; img-src 'self' data: github.githubassets.com media.githubusercontent.com camo.githubusercontent.com identicons.github.com avatars.githubusercontent.com github-cloud.s3.amazonaws.com objects.githubusercontent.com secured-user-images.githubusercontent.com/ user-images.githubusercontent.com/ private-user-images.githubusercontent.com opengraph.githubassets.com github-production-user-asset-6210df.s3.amazonaws.com customer-stories-feed.github.com spotlights-feed.github.com objects-origin.githubusercontent.com *.githubusercontent.com; manifest-src 'self'; media-src github.com user-images.githubusercontent.com/ secured-user-images.githubusercontent.com/ private-user-images.githubusercontent.com github-production-user-asset-6210df.s3.amazonaws.com gist.github.com; script-src github.githubassets.com; style-src 'unsafe-inline' github.githubassets.com; upgrade-insecure-requests; worker-src github.com/assets-cdn/worker/ gist.github.com/assets-cdn/worker/
+Set-Cookie: _gh_sess=CuyojnftM9y3bajp3fxYzPDEqRRBNNEy6XJ8DbY%2BM8B0DXyxf2lSWK6dPwgNIhsbVe8b1ibfN6yFm8gdxtnjnZ5BEy2iX8qayBLZh0RI3I0ZSG%2FzAz%2FqAK%2FTw0UP0SvzuWzUPDXYh44%2BrRCO03aAzd5zRbnWsjAnSo1hz7rXY5V%2BwtoY%2BH26TafmLh2%2F4ZX8fGmGg5BwIt2cSlMRojwHDz9%2FPo8MC9e1KjwcW6y7gP37uO3g2wEnhV8Tt3R8EJl2jkBUx7GrAwMmmL94dDJb%2Fg%3D%3D--50pVKnmdVWbTNcvp--P%2FaBe1au10pzlRaLM7UnIg%3D%3D; Path=/; HttpOnly; Secure; SameSite=Lax
+Set-Cookie: _octo=GH1.1.1381695978.1716723522; Path=/; Domain=github.com; Expires=Mon, 26 May 2025 11:38:42 GMT; Secure; SameSite=Lax
+Set-Cookie: logged_in=no; Path=/; Domain=github.com; Expires=Mon, 26 May 2025 11:38:42 GMT; HttpOnly; Secure; SameSite=Lax
+Accept-Ranges: bytes
+Transfer-Encoding: chunked
+X-GitHub-Request-Id: E956:2E6FA0:9E76FC:B9EB53:66531F42
+connection: close
+
+]
+[2024-05-26 17:30:56,055: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 17:30:56,071: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 17:30:56,088: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 17:30:56,092: INFO: common: created directory at: artifacts]
+[2024-05-26 17:30:56,095: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-26 17:30:58,580: INFO: 1268487314: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 50497
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "9628741fe32bcbb092ec1d5d30aa1bc3430d6c16ca2fb5ba194d2769ee22c7e1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4DE8:92719:110155:184352:6653247C
+Accept-Ranges: bytes
+Date: Sun, 26 May 2024 12:01:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10229-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1716724862.547690,VS0,VE346
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e77dfdd4e1a935b2d92f417becc101b21783dbaf
+Expires: Sun, 26 May 2024 12:06:01 GMT
+Source-Age: 0
+
+]
+[2024-05-26 17:31:24,631: INFO: main: this is log file]
+[2024-05-26 17:47:55,162: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-26 17:47:55,174: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 17:47:55,182: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 17:47:55,193: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 17:47:55,203: INFO: common: created directory at: artifacts]
+[2024-05-26 17:47:55,203: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-26 17:47:58,097: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 50497
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "9628741fe32bcbb092ec1d5d30aa1bc3430d6c16ca2fb5ba194d2769ee22c7e1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4DE8:92719:110155:184352:6653247C
+Accept-Ranges: bytes
+Date: Sun, 26 May 2024 12:18:01 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10239-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1716725881.945898,VS0,VE300
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f9acae6728efd153516061f4589e457d1069bbc0
+Expires: Sun, 26 May 2024 12:23:01 GMT
+Source-Age: 0
+
+]
+[2024-05-26 17:47:58,133: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-26 17:59:20,381: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 17:59:20,384: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 17:59:20,391: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 17:59:20,394: INFO: common: created directory at: artifacts]
+[2024-05-26 17:59:20,396: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-26 17:59:35,567: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-26 17:59:35,570: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 17:59:35,572: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 17:59:35,580: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 17:59:35,583: INFO: common: created directory at: artifacts]
+[2024-05-26 17:59:35,586: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-26 17:59:37,781: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 50497
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "9628741fe32bcbb092ec1d5d30aa1bc3430d6c16ca2fb5ba194d2769ee22c7e1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4DE8:92719:110155:184352:6653247C
+Accept-Ranges: bytes
+Date: Sun, 26 May 2024 12:29:41 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10233-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1716726581.972603,VS0,VE285
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 9958fa5c7a5f4186843dc728274b6bd735f32fac
+Expires: Sun, 26 May 2024 12:34:41 GMT
+Source-Age: 0
+
+]
+[2024-05-26 17:59:37,805: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-26 17:59:37,809: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-26 17:59:37,809: ERROR: main: name 'DataValidationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "D:\may\thyroid_ml\main.py", line 25, in <module>
+    data_ingestion = DataValidationTrainingPipeline()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DataValidationTrainingPipeline' is not defined. Did you mean: 'DataIngestionTrainingPipeline'?
+[2024-05-26 18:16:59,984: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 18:16:59,994: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 18:17:00,018: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 18:17:00,020: INFO: common: created directory at: artifacts]
+[2024-05-26 18:17:00,020: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-26 18:18:05,201: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-26 18:18:05,211: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 18:18:05,212: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 18:18:05,218: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 18:18:05,218: INFO: common: created directory at: artifacts]
+[2024-05-26 18:18:05,218: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-26 18:18:07,786: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 50497
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "9628741fe32bcbb092ec1d5d30aa1bc3430d6c16ca2fb5ba194d2769ee22c7e1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4DE8:92719:110155:184352:6653247C
+Accept-Ranges: bytes
+Date: Sun, 26 May 2024 12:48:11 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10240-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1716727691.982684,VS0,VE285
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 94e939713659c1188819b21ae24bdeca49e1625a
+Expires: Sun, 26 May 2024 12:53:11 GMT
+Source-Age: 0
+
+]
+[2024-05-26 18:18:07,830: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-26 18:18:07,830: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-26 18:18:07,830: ERROR: main: name 'DataValidationTrainingPipeline' is not defined]
+Traceback (most recent call last):
+  File "D:\may\thyroid_ml\main.py", line 25, in <module>
+    data_ingestion = DataValidationTrainingPipeline()
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+NameError: name 'DataValidationTrainingPipeline' is not defined. Did you mean: 'DataIngestionTrainingPipeline'?
+[2024-05-26 18:23:43,111: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 18:23:43,111: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 18:23:43,120: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 18:23:43,125: INFO: common: created directory at: artifacts]
+[2024-05-26 18:23:43,125: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-26 18:24:54,931: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-26 18:24:54,933: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 18:24:54,936: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 18:24:54,938: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 18:24:54,944: INFO: common: created directory at: artifacts]
+[2024-05-26 18:24:54,944: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-26 18:24:57,060: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 50497
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "9628741fe32bcbb092ec1d5d30aa1bc3430d6c16ca2fb5ba194d2769ee22c7e1"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 4DE8:92719:110155:184352:6653247C
+Accept-Ranges: bytes
+Date: Sun, 26 May 2024 12:55:00 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10238-MAA
+X-Cache: HIT
+X-Cache-Hits: 0
+X-Timer: S1716728100.171178,VS0,VE286
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: f3c65baff05aef614cbbdf182d797324deb5811f
+Expires: Sun, 26 May 2024 13:00:00 GMT
+Source-Age: 0
+
+]
+[2024-05-26 18:24:57,088: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-26 18:24:57,093: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-26 18:24:57,093: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 18:24:57,093: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 18:24:57,103: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 18:24:57,103: INFO: common: created directory at: artifacts]
+[2024-05-26 18:24:57,103: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-26 18:24:57,153: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-26 20:30:34,682: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-26 20:30:34,687: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 20:30:34,691: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 20:30:34,698: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 20:30:34,702: INFO: common: created directory at: artifacts]
+[2024-05-26 20:30:34,702: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-26 20:30:36,960: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 57457
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dabcadb65ad46fb8351c3e14833fec2badfb2496ba05557694f9873b3b7de6b8"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 84F4:938FB:128E1E:1A5AEE:66534E94
+Accept-Ranges: bytes
+Date: Sun, 26 May 2024 15:00:40 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10232-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1716735640.348429,VS0,VE314
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: 6c2bfa1ec2ec6eb7699ee86a4bcc0db3079c4ccf
+Expires: Sun, 26 May 2024 15:05:40 GMT
+Source-Age: 0
+
+]
+[2024-05-26 20:30:36,992: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-26 20:30:36,996: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-26 20:30:37,001: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 20:30:37,003: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 20:30:37,011: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 20:30:37,012: INFO: common: created directory at: artifacts]
+[2024-05-26 20:30:37,012: ERROR: main: "'ConfigBox' object has no attribute 'columns'"]
+Traceback (most recent call last):
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\box.py", line 592, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'COLUMNS'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\box.py", line 631, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\box.py", line 619, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'COLUMNS'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\box.py", line 633, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'COLUMNS'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\config_box.py", line 29, in __getattr__
+    return super().__getattr__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\box.py", line 647, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'COLUMNS'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\box.py", line 592, in __getitem__
+    return super().__getitem__(item)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^
+KeyError: 'columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\box.py", line 631, in __getattr__
+    value = self.__getitem__(item, _ignore_default=True)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\box.py", line 619, in __getitem__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'columns'"
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\box.py", line 633, in __getattr__
+    value = object.__getattribute__(self, item)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'ConfigBox' object has no attribute 'columns'
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "D:\may\thyroid_ml\main.py", line 26, in <module>
+    data_ingestion.main()
+  File "d:\may\thyroid_ml\src\mlProject\pipeline\stage_02_Data_Validation.py", line 14, in main
+    data_validation_config = config.get_data_validation_config()
+                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "d:\may\thyroid_ml\src\mlProject\config\configuration.py", line 43, in get_data_validation_config
+    schema = self.schema.COLUMNS
+             ^^^^^^^^^^^^^^^^^^^
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\config_box.py", line 31, in __getattr__
+    return super().__getattr__(item.lower())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\may\thyroid_ml\env\Lib\site-packages\box\box.py", line 647, in __getattr__
+    raise BoxKeyError(str(err)) from _exception_cause(err)
+box.exceptions.BoxKeyError: "'ConfigBox' object has no attribute 'columns'"
+[2024-05-26 20:32:14,626: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 20:32:14,629: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 20:32:14,638: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 20:32:14,641: INFO: common: created directory at: artifacts]
+[2024-05-26 20:35:00,115: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 20:35:00,115: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 20:35:00,125: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 20:35:00,129: INFO: common: created directory at: artifacts]
+[2024-05-26 20:35:00,129: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-26 20:39:12,881: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 20:39:12,886: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 20:39:12,893: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 20:39:12,896: INFO: common: created directory at: artifacts]
+[2024-05-26 20:39:12,896: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-26 21:56:19,782: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 21:56:19,796: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 21:56:19,815: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 21:56:19,818: INFO: common: created directory at: artifacts]
+[2024-05-26 21:56:19,820: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-26 22:06:04,896: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 22:06:04,898: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 22:06:04,909: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 22:06:04,913: INFO: common: created directory at: artifacts]
+[2024-05-26 22:11:36,546: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 22:11:36,553: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 22:11:36,564: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 22:11:36,568: INFO: common: created directory at: artifacts]
+[2024-05-26 22:12:35,625: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 22:12:35,632: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 22:12:35,646: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 22:12:35,648: INFO: common: created directory at: artifacts]
+[2024-05-26 22:12:35,648: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-26 22:12:35,758: INFO: 4261508835: Splited data into training and test sets]
+[2024-05-26 22:12:35,759: INFO: 4261508835: (2829, 33)]
+[2024-05-26 22:12:35,759: INFO: 4261508835: (943, 33)]
+[2024-05-26 22:20:08,491: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-05-26 22:20:08,491: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 22:20:08,491: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 22:20:08,499: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 22:20:08,505: INFO: common: created directory at: artifacts]
+[2024-05-26 22:20:08,505: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-26 22:20:10,715: INFO: data_ingestion: artifacts/data_ingestion/data.zip download! with following info: 
+Connection: close
+Content-Length: 57457
+Cache-Control: max-age=300
+Content-Security-Policy: default-src 'none'; style-src 'unsafe-inline'; sandbox
+Content-Type: application/zip
+ETag: "dabcadb65ad46fb8351c3e14833fec2badfb2496ba05557694f9873b3b7de6b8"
+Strict-Transport-Security: max-age=31536000
+X-Content-Type-Options: nosniff
+X-Frame-Options: deny
+X-XSS-Protection: 1; mode=block
+X-GitHub-Request-Id: 3734:2E73FA:12C582:1AE6C7:66536845
+Accept-Ranges: bytes
+Date: Sun, 26 May 2024 16:50:14 GMT
+Via: 1.1 varnish
+X-Served-By: cache-maa10240-MAA
+X-Cache: MISS
+X-Cache-Hits: 0
+X-Timer: S1716742214.077260,VS0,VE299
+Vary: Authorization,Accept-Encoding,Origin
+Access-Control-Allow-Origin: *
+Cross-Origin-Resource-Policy: cross-origin
+X-Fastly-Request-ID: e3c28df44c1c5226143a79d7ac16629a8f633d7e
+Expires: Sun, 26 May 2024 16:55:14 GMT
+Source-Age: 0
+
+]
+[2024-05-26 22:20:10,754: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-05-26 22:20:10,754: INFO: main: >>>>>> stage Data Validation stage started <<<<<<]
+[2024-05-26 22:20:10,763: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 22:20:10,763: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 22:20:10,771: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 22:20:10,771: INFO: common: created directory at: artifacts]
+[2024-05-26 22:20:10,771: INFO: common: created directory at: artifacts/data_validation]
+[2024-05-26 22:20:10,857: INFO: main: >>>>>> stage Data Validation stage completed <<<<<<
+
+x==========x]
+[2024-05-26 22:20:10,857: INFO: main: >>>>>> stage Data Transformation stage started <<<<<<]
+[2024-05-26 22:20:10,857: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 22:20:10,868: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 22:20:10,872: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 22:20:10,872: INFO: common: created directory at: artifacts]
+[2024-05-26 22:20:10,872: INFO: common: created directory at: artifacts/data_transformation]
+[2024-05-26 22:20:10,979: INFO: data_transformation: Splited data into training and test sets]
+[2024-05-26 22:20:10,979: INFO: data_transformation: (2829, 33)]
+[2024-05-26 22:20:10,979: INFO: data_transformation: (943, 33)]
+[2024-05-26 22:20:10,979: INFO: main: >>>>>> stage Data Transformation stage completed <<<<<<
+
+x==========x]
+[2024-05-26 22:26:07,901: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-05-26 22:26:07,901: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-05-26 22:26:07,914: INFO: common: yaml file: schema.yaml loaded successfully]
+[2024-05-26 22:26:07,917: INFO: common: created directory at: artifacts]
+[2024-05-26 22:26:07,919: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-05-26 22:26:07,921: INFO: 1268487314: File already exists of size: ~ 56 KB]
